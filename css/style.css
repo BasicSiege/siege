@@ -1,0 +1,192 @@
+/*!* Copyright ADURITE - https://adurite.com
+Please contact vertical#2330 on Discord or Email me on tommy.vertical@gmail.com for usage permission.
+Any usage of our files results in DMCA legal action. https://www.copyright.gov/legislation/dmca.pdf*!*/
+@font-face {
+    font-family: gotham pro;
+    src: url(/fonts/07a38bbad54db72a40b406bed1c72f53.eot);
+    src: url(/fonts/07a38bbad54db72a40b406bed1c72f53.eot?#iefix) format("embedded-opentype"),url(/fonts/07a38bbad54db72a40b406bed1c72f53.woff2) format("woff2"),url(/fonts/07a38bbad54db72a40b406bed1c72f53.woff) format("woff"),url(/fonts/07a38bbad54db72a40b406bed1c72f53.ttf) format("truetype"),url("/fonts/07a38bbad54db72a40b406bed1c72f53.svg#Gotham Pro") format("svg")
+}
+
+@font-face {
+    font-family: gotham black;
+    src: url(/fonts/0f9c349da923afea31fae4db7b8094f0.eot);
+    src: url(/fonts/0f9c349da923afea31fae4db7b8094f0.eot?#iefix) format("embedded-opentype"),url(/fonts/0f9c349da923afea31fae4db7b8094f0.woff2) format("woff2"),url(/fonts/0f9c349da923afea31fae4db7b8094f0.woff) format("woff"),url(/fonts/0f9c349da923afea31fae4db7b8094f0.ttf) format("truetype"),url("/fonts/0f9c349da923afea31fae4db7b8094f0.svg#Gotham Black") format("svg")
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.eot);
+    src: url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.eot?#iefix) format("embedded-opentype"),url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.woff2) format("woff2"),url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.woff) format("woff"),url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.ttf) format("truetype"),url(/fonts/3a47f5f06b5484abfeee9eac90348a9c.svg#Gotham) format("svg")
+}
+
+body {
+    background-color: #1f212a!important;
+    font-family: Gotham Pro!important
+}
+
+.navbar {
+    padding-top: 30px!important;
+    padding-right: 30px!important;
+    padding-bottom: 20px!important;
+    padding-left: 30px!important;
+    background-color: #10111b;
+    z-index: 5
+}
+
+.footerIcon {
+    height: 120px
+}
+
+@media screen and (max-width: 799px) {
+    .sidenav {
+        visibility:hidden;
+        display: none
+    }
+
+    #main {
+        margin-left: 0!important;
+        padding: 0!important
+    }
+
+    .imgcard {
+        width: 100px!important;
+        height: 100px!important
+    }
+
+    .footerIcon {
+        width: 100%;
+        height: auto
+    }
+}
+
+.walletButton {
+    background-color: #1f212a!important;
+    color: #fff!important;
+    font-weight: 600!important;
+    padding: .4rem .75rem!important;
+    width: auto!important
+}
+
+.depoButton {
+    background-color: #df4f39!important;
+    font-weight: 600!important;
+    padding: .4rem .75rem!important
+}
+
+.sellerPanelBtn {
+    font-size: 20px!important;
+    border-radius: 20px!important;
+    width: 110px!important;
+    background-color: #df4f39!important;
+    color: #000!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 16px!important;
+    line-height: 15px!important;
+    width: 150px!important;
+    padding-top: 10px!important;
+    height: 40px!important
+}
+
+.navSignInBtn {
+    font-size: 20px!important;
+    border-radius: 20px!important;
+    width: 110px!important;
+    background-color: #df4f39!important;
+    color: #000!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 16px!important;
+    line-height: 15px!important;
+    width: 101px!important;
+    padding-top: 10px!important;
+    height: 40px!important
+}
+
+.navSignUpBtn {
+    font-size: 20px!important;
+    border-radius: 20px!important;
+    width: 110px!important;
+    margin-right: 18px!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 16px!important;
+    line-height: 15px!important;
+    width: 101px!important;
+    padding-top: 10px!important;
+    height: 40px!important
+}
+
+.imgcard {
+    width: 150px;
+    height: 150px
+}
+
+.alert-box {
+    padding: 30px!important;
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+    background-color: #0b57bb;
+    margin-top: -20px
+}
+
+.inputcolor {
+    color: #fff!important;
+    background-color: #10111b!important;
+    padding: 15px!important;
+    font-size: 20px!important;
+    border: 1px solid #51557b!important
+}
+
+.inputcolor::placeholder {
+    color: #7a7a8e;
+    opacity: 1
+}
+
+.robux {
+    height: 12px;
+    padding-right: 5px;
+    margin-top: -3px
+}
+
+.login-form {
+    padding: 200px 0
+}
+
+.register-form {
+    padding: 178px 0
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: .3s
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2)
+}
+
+.center {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important
+}
+
+ul {
+    list-style-type: none;
+    padding: 0!important
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px)
+    }
+
+    50% {
+        transform: translatey(-20px)
+    }
+
+    100% {
+        transform: translatey(0px)
+    }
+}
